@@ -1,0 +1,101 @@
+/* home.htm starts here */
+.myfont{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 50pt;
+}
+.myfont2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding-right:30pt;    
+}
+
+.mymargin
+{
+    margin-right: 10pt;
+}
+.carousel-caption h1{
+    font-style: italic;
+    font-size: 30pt;
+    color:yellow;
+}
+.carousel-caption p{
+    font-size: 14pt;
+}
+#explore{
+    text-align: center;
+    color: crimson;
+}
+#content{
+    padding:0pt 100pt;
+    text-align: justify;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:green;
+    color: white;
+    text-align: center;
+
+}
+/* home.htm end here */
+
+
+/* Log.htm starts here */
+.box1{
+    padding-left:400pt;
+    padding-right: 550pt;
+}
+#account{
+    padding-top: 10pt;
+}
+/* Log.htm ends here */
+
+
+/* Sign.htm starts here */
+.box{
+    padding-left: 400pt;
+    padding-right: 450pt ;
+}
+/* Sign.htm ends here */
+
+
+/* District.htm stars here */
+.col-md-8{
+    color:white;
+    text-align: justify;
+    margin-top: 10pt;
+}
+/* District.htm ends here */
+
+
+/* Thiruvananthapurm.htm stars here */
+.heading{
+    color:darkred;
+    text-align:center;
+    font-weight: bold;
+}
+
+.paragraph{
+    text-align: justify;
+}
+/* Thiruvananathapuram.htm ends here */
+
+
+
