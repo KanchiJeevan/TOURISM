@@ -15,27 +15,37 @@
 <body background="image/sea.jpg" style="background-size: cover;">
    
  <h1 style="text-align: center; padding-top: 20pt; color:white;">Account Login</h1>
-  <form>
+ 
+
+  <form action="index.htm" onsubmit="return validation()">
     <div class="box1">
 
       <br>
-  <div class="form-group">
-    <label for="exampleInputEmail1" style="color:white; font-size: large;">Username</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your Username" >
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1" style="color:white; font-size: large;">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
-  </div>
+    <div class="form-group"> 
+        <label for="emails" style="color:white; font-size: large;">Email</label>
+        <input type="text" class="form-control" id="email" placeholder="Enter your email">
+        <span id="emailerror" class="text-danger font-weight-bold"></span>
+      </div>
+    <div class="form-group">
+      <label for="password" style="color:white; font-size: large;">Password</label>
+      <input type="password" class="form-control" id="password" placeholder="Enter your Password">
+      <span id="passworderror" class="text-danger font-weight-bold"></span>
+      </div>
+      <div class="wrap text-center">
+        <p class="strength" id="length"></p>
+      </div>
   <a class="nav-link" href="#" style="color: blue; font-size: large;" >Forgot Password?</a>
   <br>
-  <a href="index.htm" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" style="width: 200pt;">Login</a>
+  <button class="btn btn-primary" href="index.htm" role="button" type="submit" id="submit" style="width: 200pt;">Login</button>
   <div id="account">
   <h6 style="font-size: large;">Need an account?<a class="nav-link" href="sign.htm" style="color: blue;" >Sign Up</a></h6>
   </div>
 
 </div>
 </form>
+
+
+<script src="log.js"></script>
 
 </body>
 </html>
