@@ -52,7 +52,7 @@ if (password.match(passwordcheck)){
         status.style.background="orange";
         status.style.color="#ffffff";
         }  
-        else if (password.match(passwordcheckkk)){
+        else {
             document.getElementById("passworderror").innerHTML = "";
             status.innerHTML="Poor";
             status.style.background="red";
